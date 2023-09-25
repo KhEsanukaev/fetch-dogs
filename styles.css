@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#root {
+  width: 768px;
+  margin: auto;
+}
+
+.header {
+  padding: 10px 15px;
+  border-bottom: 1px solid lightgray;
+
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 5px 25px;
+
+  background-color: greenyellow;
+  border: 1px solid lightgreen;
+
+  cursor: pointer;
+}
+
+.header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 250px;
+}
+
+.content {
+  flex: 1;
+}
+
+.images__item {
+  text-align: center;
+}
+
+.images__item img {
+  width: 100%;
+}
